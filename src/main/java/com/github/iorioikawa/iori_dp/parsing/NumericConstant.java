@@ -9,6 +9,11 @@ public class NumericConstant extends Constant
         this.value = v;
     }
 
+    public double getValue()
+    {
+        return this.value;
+    }
+
     @Override
     public <T> T accept(IVisitor<T> visitor)
     {

@@ -9,6 +9,11 @@ public class BooleanConstant extends Constant
         this.value = v;
     }
 
+    public boolean getValue()
+    {
+        return this.value;
+    }
+
     @Override
     public <T> T accept(IVisitor<T> visitor)
     {
