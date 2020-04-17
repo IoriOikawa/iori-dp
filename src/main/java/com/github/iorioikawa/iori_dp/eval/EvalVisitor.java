@@ -2,7 +2,7 @@ package com.github.iorioikawa.iori_dp.eval;
 
 import com.github.iorioikawa.iori_dp.parsing.*;
 
-public class EvalVisitor implements IVisitor<Result>
+public class EvalVisitor implements IExpressionVisitor<Result>
 {
     private final double x;
 

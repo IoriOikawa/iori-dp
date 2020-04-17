@@ -1,6 +1,6 @@
 package com.github.iorioikawa.iori_dp.parsing;
 
-public interface IVisitor<T>
+public interface IExpressionVisitor<T>
 {
     T visit(OpAdd v);
 

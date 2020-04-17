@@ -2,7 +2,7 @@ package com.github.iorioikawa.iori_dp.type_check;
 
 import com.github.iorioikawa.iori_dp.parsing.*;
 
-public class TypeCheckVisitor implements IVisitor<Type>
+public class TypeCheckVisitor implements IExpressionVisitor<Type>
 {
     @Override
     public Type visit(OpAdd v)

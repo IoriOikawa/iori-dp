@@ -1,5 +1,5 @@
 package com.github.iorioikawa.iori_dp.eval;
 
-public class Result
+public abstract class Result
 {
 }
